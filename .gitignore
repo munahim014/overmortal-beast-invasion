@@ -16,6 +16,10 @@ credentials*.json
 *.p12
 *.pfx
 
+# Bundled third-party tools and game screenshots/templates
+Overmortal_Automation/platform-tools/
+Overmortal_Automation/*.png
+
 # Local run output
 *.log
 Overmortal_Automation/run_results.jsonl

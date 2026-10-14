@@ -15,8 +15,9 @@ A fault-tolerant Python automation engine that uses computer-vision template mat
 
 ## Requirements
 * Python 3.10+
-* Android SDK Platform-Tools (`adb.exe`), included in `Overmortal_Automation/platform-tools/`
+* Android SDK Platform-Tools (`adb.exe`), placed in `Overmortal_Automation/platform-tools/` (not tracked in git)
 * BlueStacks (`HD-Player.exe`) with the emulator set to a 1080x1920 portrait resolution
+* Template images (`*.png`) in `Overmortal_Automation/` (not tracked in git; the script loads them from that folder)
 * Windows (DXcam and pywin32 are Windows-only)
 
 ## Usage
