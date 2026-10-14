@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.*
+credentials*.json
+*token*.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local run output
+*.log
+Overmortal_Automation/run_results.jsonl
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
